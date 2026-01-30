@@ -7,6 +7,10 @@ This project is designed to be **production-friendly**:
 - Rate-limited per aircraft (cooldowns) with persistent state
 - Optional photo attachment via Planespotters (public API)
 
+## Example alert
+
+![Example WhatsApp alert](assets/example-alert.jpg)
+
 ## What you need
 
 - An ADS-B receiver feeding **SBS/BaseStation** on TCP (commonly `:30003`)
