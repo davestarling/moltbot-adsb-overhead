@@ -1,0 +1,13 @@
+# Ignore local/runtime artifacts for adsb-overhead
+__pycache__/
+*.pyc
+
+# Local configs (never commit real values)
+config.json
+
+# Runtime state
+state.json
+photos/
+notifier.log
+notifier.lock
+unifi_login_lock.json
